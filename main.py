@@ -71,7 +71,7 @@ for movie in sorted_similar_movies:
   index = movie[0]
   title_from_index = movies_data[movies_data.index==index]['title'].values[0]
 
-  #printing top 29 movies
+  #printing top 5 movies
   if (i<6):
     print(i, '.',title_from_index)
     i+=1
